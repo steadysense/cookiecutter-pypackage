@@ -8,9 +8,9 @@ import click
 
 @click.group()
 def cli(args=None):
-    """Console script for python_boilerplate."""
+    """Console entrypoint for {{ cookiecutter.project_slug }}."""
     click.echo(
-        "Replace this message by putting your code into " "python_boilerplate.cli.main"
+        "Replace this message by putting your code into {{ cookiecutter.project_slug }}.cli.cli"
     )
     click.echo("See click documentation at http://click.pocoo.org/")
 
